@@ -6,3 +6,12 @@ jobs:
     steps:
     - name: "Say Hello"
       run: echo "Hello, World!"
+  echo-goodbye:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Successful step 
+      run: |
+        echo "It wii Success"
+        exit 0
+    - name: Say goodbye
+      run: echo "Good Bye!"
