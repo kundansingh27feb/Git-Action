@@ -1,0 +1,19 @@
+name: 04-using-actions
+on: workflow_dispatch
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: 04-using-action/react-app
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: Setup Node
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20.x'
+    - name: Installing Dependencies
+      run: npm install 
+    - name: Running Unit Test
+      run: npm run test
