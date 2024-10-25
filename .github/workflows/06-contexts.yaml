@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       debug:
+        description: 'Enable debug mode' #Its mendetory to provide the description field.
         type: boolean
         default: false
 env:
