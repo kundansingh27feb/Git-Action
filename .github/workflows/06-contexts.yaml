@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       debug:
+        description: "enable debugging"
         type: boolean
         default: false
 env:
