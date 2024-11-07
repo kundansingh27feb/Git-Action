@@ -4,6 +4,7 @@ GitHub Actions is a powerful automation tool that allows you to build, test, and
 
 ## Workflows
 
+
 A workflow is a customizable, automated process that you can define in your repository. It's typically used for continuous integration (CI), continuous deployment (CD), and other automation tasks. Here are the important aspects of workflows:
 
 - **Trigger**: Workflows are triggered by specific events, such as pushes, pull requests, or scheduled events. You define when and how a workflow runs. See the [triggering-workflows](../triggering-workflows/README.md) folder for more information about triggering workflows.
